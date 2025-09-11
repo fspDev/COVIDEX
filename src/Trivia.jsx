@@ -59,7 +59,7 @@ function Trivia() {
 
   return (
     <div className="TriviaContainer">
-      <p className='Titulo-principal'>COVIDEX</p>
+      <p className='Titulo-principal'>Covidex</p>
       <p className='Titulos'>RESPONDÉ Y GANÁ!</p>
       {/*<img src={logo} className="App-logo" alt="logo" />*/}
       {/* Renderiza el mensaje de resultado o la pregunta actual */}
