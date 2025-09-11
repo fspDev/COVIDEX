@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/COVIDEX/static/css/main.ab0487bf.css",
-    "main.js": "/COVIDEX/static/js/main.e5025924.js",
+    "main.js": "/COVIDEX/static/js/main.fbfa386e.js",
     "static/js/453.4237f30e.chunk.js": "/COVIDEX/static/js/453.4237f30e.chunk.js",
     "static/media/ruleta.png": "/COVIDEX/static/media/ruleta.190ce3fecc481b1a3b5d.png",
     "static/media/logo.png": "/COVIDEX/static/media/logo.6bb2eed087005010aa87.png",
     "static/media/centro.png": "/COVIDEX/static/media/centro.e55b365237dc13427215.png",
     "index.html": "/COVIDEX/index.html",
     "main.ab0487bf.css.map": "/COVIDEX/static/css/main.ab0487bf.css.map",
-    "main.e5025924.js.map": "/COVIDEX/static/js/main.e5025924.js.map",
+    "main.fbfa386e.js.map": "/COVIDEX/static/js/main.fbfa386e.js.map",
     "453.4237f30e.chunk.js.map": "/COVIDEX/static/js/453.4237f30e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab0487bf.css",
-    "static/js/main.e5025924.js"
+    "static/js/main.fbfa386e.js"
   ]
 }
