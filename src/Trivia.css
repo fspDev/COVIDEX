@@ -1,0 +1,100 @@
+.BotonRegresar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: grey;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px 25px;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: transform 0.2s;
+  margin-top: 20px;
+}
+
+.BotonRegresar:active {
+  transform: scale(0.95); 
+}
+
+.TriviaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Tarjeta {
+  width: 900px;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo-principal {
+  font-weight: 900; /* Mayor grosor en la tipografía */
+  font-size: 60px;
+  color: #FF4813
+  ;
+  text-align: center;
+}
+
+.Titulos {
+  font-weight: 900; /* Mayor grosor en la tipografía */
+  font-size: 38px;
+  color: #fff
+  ;
+  text-align: center;
+}
+
+.Pregunta {
+  font-size: 30px;
+  color: #FF4813
+  ;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Opciones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px; /* Reduce el espacio entre los botones */
+}
+
+.Opcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #212322;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  height: auto; /* Ajusta la altura automáticamente según el contenido */
+  display: flex;
+  align-items: center; /* Alinea el contenido verticalmente al centro */
+  justify-content: center; /* Centra el texto horizontalmente */
+  white-space: normal; /* Permite que el texto se divida en varias líneas */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Mensaje {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-logo {
+  width: 400px;
+  padding-bottom: 30px;
+}
