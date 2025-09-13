@@ -10,7 +10,7 @@ function Ruleta() {
   const [numeroCasilla, setNumeroCasilla] = useState(null);
   
   // Estado para controlar el premio actual
-  const [premio, setPremio] = useState("Suerte!");
+  const [premio, setPremio] = useState("SUERTE!");
   
   // Estado para controlar la rotación de la ruleta
   const [rotation, setRotation] = useState(0);
@@ -31,25 +31,25 @@ function Ruleta() {
 
     // Determinar el premio según el rango de grados
     if (grados >= 0 && grados <= 44) {
-      nuevoPremio = "FELICIDADES GANASTE!";
+      nuevoPremio = "GANASTE UNA BOTELLA!";
     } else if (grados >= 45 && grados <= 89) {
-      nuevoPremio = "GRACIAS POR PARTICIPAR";
+      nuevoPremio = "DALE OTRA VUELTA";
     } else if (grados >= 90 && grados <= 134) {
-      nuevoPremio = "TIRÁ DE NUEVO";
+      nuevoPremio = "GANASTE UNA CINTA!";
     } else if (grados >= 135 && grados <= 179) {
       nuevoPremio = "GRACIAS POR PARTICIPAR";
     } else if (grados >= 180 && grados <= 224) {
-      nuevoPremio = "FELICIDADES GANASTE!";
+      nuevoPremio = "GANASTE UN MATE!";
     } else if (grados >= 225 && grados <= 269) {
-      nuevoPremio = "GRACIAS POR PARTICIPAR";
+      nuevoPremio = "DALE OTRA VUELTA";
     } else if (grados >= 270 && grados <= 314) {
-      nuevoPremio = "TIRÁ DE NUEVO";
+      nuevoPremio = "GANASTE UNA LAPICERA";
     } else if (grados >= 315 && grados <= 359) {
       nuevoPremio = "GRACIAS POR PARTICIPAR";
     }
 
     // Actualizar el premio
-    setPremio(nuevoPremio);
+     setPremio(nuevoPremio);
 
     // Restaurar el texto de "Suerte!" después de 3 segundos
     setTimeout(() => {
